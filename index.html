@@ -22,16 +22,30 @@
 				<ul>
 					<li><a href="#aboutme">About me</a></li>
 					<li><a href="#projects">My projects</a></li>
-					<li><a href="">Thoughts</a></li>
+					<li><a href="#thoughts">Thoughts</a></li>
 					<li><a href="#footer">Contact</a></li>
 				</ul>
 			</div>
 
 			<div class="dropdown-menu">
+				<button onclick="showMenu()" id="dropdown-btn" class="btn-dropdown">
+					<i class="fas fa-bars"></i>
+				</button>
 
+				
 			</div>
 		</nav>
 	</header>
+
+	<div class="dropdown-item" id="dropitem">
+		<button onclick="closeMenu()">&#10006;&nbsp;</button>
+		<div class="droplist">
+			<a href="#about-me" onclick="closeMenu()">About me</a>
+			<a href="#projects" onclick="closeMenu()">My project</a>
+			<a href="#thoughts" onclick="closeMenu()">Thoughts</a>
+			<a href="#footer" onclick="closeMenu()">Contact</a>
+		</div>
+	</div>
 
 	<section>
 		<div class="intro">
@@ -131,7 +145,9 @@
 				</div>
 				<div class="saying">
 					<q>Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.</q>
-					<p>Rob Pike</p>
+					<br>
+					<br>
+					<p style="float: right;"><strong>Rob Pike</strong></p>
 				</div>
 			</div>
 	
@@ -147,7 +163,7 @@
 		<br>
 		<br>
 		<div class="social-network">
-			<ul>
+			<ul id="desktop-network">
 				<li> 
 					<a id="fb" href="https://fb.com/quocthinhle1002" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
 				</li>
@@ -158,8 +174,21 @@
 					<a id="github" href="https://github.com/thinhquocle" target="_blank"><i class="fab fa-github fa-3x"></i></a>
 				</li>
 			</ul>
+
+			<ul id="mobile-network">
+				<li> 
+					<a id="fb" href="https://fb.com/quocthinhle1002" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+				</li>
+				<li>
+					<a id="ig" href="https://instagram.com/quocthinhle_" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+				</li>
+				<li>
+					<a id="github" href="https://github.com/thinhquocle" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+				</li>
+			</ul>
 		</div>
 	</footer>
 	<script src="https://kit.fontawesome.com/2ee7bf160c.js" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>

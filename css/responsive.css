@@ -1,5 +1,207 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
 	.dropdown-menu {
 		display: none;
 	}
+
+	#mobile-network {
+		display: none;
+	}
+
+	.about-me h1 {
+		line-height: 45px;
+	}
+
+	.intro {
+		width: 70%;
+	}
+
+	.flex-quotes {
+		width: 60%;
+	}
+
+	.saying {
+		margin-top: 2rem;
+	}
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.dropdown-menu {
+		display: none;
+	}
+
+	.intro {
+		width: 80%;
+	}
+
+	.about-me h1 {
+		line-height: 40px;
+	}
+
+	#mobile-network {
+		display: none;
+	}
+
+	.flex-quotes {
+		width: 90%;
+	}
+	
+	.about-me {
+		width: 80%;
+	}
+
+	.left-intro {
+		padding-right: 5rem;
+	}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	header nav {
+		width: 90%;
+	}
+
+	.list-item {
+		display: none;
+	}
+
+	.intro {
+		width: 80%;
+	}
+
+	.intro h1 {
+		font-size: 3rem;
+	}
+
+	.work {
+		width: 90%;
+	}
+
+	.about-me {
+		width: 90%;
+	}
+
+	.about-me h1 {
+		line-height: 40px;
+	}
+
+	.left-intro {
+		padding-right: 5rem;
+	}
+
+	.skills {
+		width: 90%;
+	}
+
+	.author {
+		display: none;
+	}
+
+	#desktop-network {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.body {
+		overflow: hidden;
+	}
+
+	a h3 {
+		font-size: 1rem;
+	}
+
+	.list-item {
+		display: none;
+	}
+	header nav {
+		width: 90%;
+	}
+
+	.intro h1 {
+		font-size: 1rem
+	}
+
+	.intro {
+		margin-bottom: 5rem;
+		width: 90%
+	}
+
+	.work {
+		width: 90%;
+		margin-bottom: 15rem;
+	}
+
+	.work .grid {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+	.item {
+		margin-bottom: 1rem;
+	}
+
+	.about-me {
+		display: flex;
+		width: 90%;
+		flex-direction: column-reverse;
+		text-align: justify;
+	}
+
+	.about-me h1 {
+		font-size: 2rem;
+		line-height: 40px;
+	}
+
+	.left-intro {
+		width: 100%;
+	}
+
+	.right-intro img {
+		width: 100%;
+	}
+
+	.skills {
+		width: 90%;
+	}
+	.skills .skills-grid {
+		grid-template-columns: auto;
+	}
+	.author {
+		display: none;
+	}
+
+	.block-quotes {
+		width: 90%;
+	}
+
+	.flex-quotes {
+		width: 100%;
+	}
+
+	.saying {
+		width: 80%;
+		margin: 0 auto;
+		text-align: justify;
+	}
+
+	.saying q {
+		font-size: 1rem;
+		line-height: 35px;
+	}
+
+	.social-network {
+		width: 70%;
+	}
+
+	#desktop-network {
+		display: none;
+	}
+
+	footer h2 {
+		font-size: 1rem;
+	}
+}
+
+
